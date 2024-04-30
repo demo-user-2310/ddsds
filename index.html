@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Lugrasimo&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+        body {
+            background-color: rgb(22, 18, 36);
+        }
+
+        .top-banner {
+            background-color: chartreuse;
+            height: 12vh;
+            border-radius: 20px;
+            cursor: pointer;
+            position: fixed;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: animate 4s infinite;
+            z-index: 1;
+        }
+
+        h2 {
+            font-size: 200%;
+        }
+
+        h4 {
+            font-size: 130%;
+        }
+
+        @keyframes animate {
+            0% {
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+
+        .cont2 {
+            margin-top: 17vh;
+        }
+
+        .cont2 h1 {
+            font-size: 500%;
+            font-family: "Jersey 15", sans-serif;
+            font-weight: 700;
+            line-height: 90%;
+        }
+
+        .cont2 .heading-text h1:first-child {
+            font-size: 400%;
+            font-family: "Ubuntu", sans-serif;
+            font-weight: 500;
+            line-height: 110%;
+        }
+
+        .cont2 .details p {
+            font-size: 110%;
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+        }
+
+        .join-btn {
+            transition: 0.7s all;
+        }
+
+        .join-btn:hover {
+            background-color: rgb(63, 77, 14);
+            transform: translateY(1px);
+            transform: scale(1.1, 1.1);
+        }
+
+        .cont2 .image-1 img {
+            width: 100%;
+        }
+
+        .cont3 .details-2 p {
+            font-size: 110%;
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            color: aqua;
+        }
+
+        .cont3 h1 {
+            font-size: 380%;
+            font-family: "Merriweather", serif;
+            font-weight: 700;
+            color: rgb(149, 149, 124);
+
+        }
+
+        .cont3 .heading-text-2 h1:last-child {
+            font-size: 330%;
+            font-family: "Merriweather", serif;
+            font-weight: 700;
+            color: white;
+        }
+
+        .cont3 .heading-text-2 span {
+            font-family: "Lugrasimo", cursive;
+            font-weight: 900;
+        }
+
+        @media screen and (max-width: 600px) {
+            .top-banner {
+                height: 10vh;
+            }
+
+            h2 {
+                font-size: 120%;
+            }
+
+            h4 {
+                font-size: 70%;
+            }
+
+            .left-section {
+                text-align: center;
+                justify-content: center;
+            }
+        }
+
+        @media screen and (max-width: 389px) {
+            .top-banner {
+                height: 11vh;
+            }
+
+            h2 {
+                font-size: 100%;
+            }
+
+            h4 {
+                font-size: 60%;
+            }
+        }
+    </style>
+
+    <title>DataCodeCamp</title>
+</head>
+
+<body>
+    <div class="container  top-banner mx-auto mb-5">
+        <h2 class="text-center mt-2"><strong>Launch Your Cloud Journey: Deep Dive into AWS</strong></h2>
+        <h4 class="text-center mb-1 ">Hindi + English</h4>
+    </div>
+
+    <div class="container cont2">
+        <div class="row">
+            <div class="col-sm-6 mb-3 text-primary  d-flex flex-column px-1 left-section ">
+                <div class="heading-text text-info">
+                    <h1>2 Hours Of <br> Workshop On</h1>
+                    <h1 class="text-warning">Cloud <br>Computing</h1>
+                </div>
+                <div class="details mt-2 text-light">
+                    <p>At DataCodeCloud, we're passionate about empowering individuals and businesses to harness the
+                        power of cloud computing. Our mission is to provide comprehensive training and resources to help
+                        you succeed in the fast-paced world of cloud technology.</p>
+                </div>
+                <div class="mt-2">
+                    <button class="join-btn btn btn-success btn-lg text-light border-none"><strong>Join the Workshop <i
+                                class="bi bi-arrow-right"></i></strong></button>
+                </div>
+            </div>
+            <div class="col-sm-6 mb-3 text-white ">
+                <div class="image-1">
+                    <img src="../images/image-1.webp" alt="image" class="mt-4">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container cont3 mt-5 py-5">
+        <div class="row">
+
+            <div class="col-sm-5 mt-5 pt-3 text-5 px-0">
+                <div class="details-2 mt-2 text-center">
+                    <p>Are you eager to unlock the power of <strong class="text-primary">Cloud computing</strong> and transform your business or career?<br>
+                        <br>This comprehensive <strong class="text-warning">3-hour AWS workshop</strong> is designed for beginners, equipping you with the
+                        essential knowledge and skills to get started with Amazon Web Services, the leading cloud
+                        platform.</p>
+                </div>
+                <div class="mt-5 text-center ">
+                    <button class="join-btn btn btn-success btn-lg text-light border-none"><strong>Join the Workshop <i
+                                class="bi bi-arrow-right"></i></strong></button>
+                </div>
+            </div>
+
+            <div class="col-sm-7 mb-3 text-primary  d-flex flex-column ">
+                <div class="heading-text-2 text-secondary text-center">
+                    <h1>Launch Your <br> Cloud Journey:</h1>
+                    <h1 class="text-light">Dive into AWS in <br><strong class="text-warning display-1">2</strong><span
+                            class="text-danger"> Power - Packed </span><br>Hours</h1>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
